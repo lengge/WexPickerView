@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA563FD31F3DB1ED0081D977 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA563FD21F3DB1ED0081D977 /* main.m */; };
+		CA563FD61F3DB1ED0081D977 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA563FD51F3DB1ED0081D977 /* AppDelegate.m */; };
+		CA563FD91F3DB1ED0081D977 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA563FD81F3DB1ED0081D977 /* ViewController.m */; };
+		CA563FDC1F3DB1ED0081D977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA563FDA1F3DB1ED0081D977 /* Main.storyboard */; };
+		CA563FDE1F3DB1ED0081D977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA563FDD1F3DB1ED0081D977 /* Assets.xcassets */; };
+		CA563FE11F3DB1ED0081D977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA563FDF1F3DB1ED0081D977 /* LaunchScreen.storyboard */; };
+		CA563FF21F3DB2190081D977 /* UIView+Wex.m in Sources */ = {isa = PBXBuildFile; fileRef = CA563FEA1F3DB2190081D977 /* UIView+Wex.m */; };
+		CA563FF31F3DB2190081D977 /* WexPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA563FEC1F3DB2190081D977 /* WexPickerView.m */; };
+		CA563FF41F3DB2190081D977 /* WexPickerViewConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = CA563FEE1F3DB2190081D977 /* WexPickerViewConfiguration.m */; };
+		CA563FF51F3DB2190081D977 /* WexPickerViewDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA563FF01F3DB2190081D977 /* WexPickerViewDataItem.m */; };
+		CA5640101F3DB2340081D977 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA563FF91F3DB2340081D977 /* JSONModel.m */; };
+		CA5640111F3DB2340081D977 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CA563FFB1F3DB2340081D977 /* JSONModelArray.m */; };
+		CA5640121F3DB2340081D977 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CA563FFD1F3DB2340081D977 /* JSONModelClassProperty.m */; };
+		CA5640131F3DB2340081D977 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = CA563FFF1F3DB2340081D977 /* JSONModelError.m */; };
+		CA5640141F3DB2340081D977 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5640021F3DB2340081D977 /* NSArray+JSONModel.m */; };
+		CA5640151F3DB2340081D977 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5640061F3DB2340081D977 /* JSONAPI.m */; };
+		CA5640161F3DB2340081D977 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5640081F3DB2340081D977 /* JSONHTTPClient.m */; };
+		CA5640171F3DB2340081D977 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56400A1F3DB2340081D977 /* JSONModel+networking.m */; };
+		CA5640181F3DB2340081D977 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56400D1F3DB2340081D977 /* JSONKeyMapper.m */; };
+		CA5640191F3DB2340081D977 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56400F1F3DB2340081D977 /* JSONValueTransformer.m */; };
+		CA56401B1F3DB2380081D977 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = CA56401A1F3DB2380081D977 /* area.json */; };
+		CA56401E1F3DB2B30081D977 /* WexAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56401D1F3DB2B30081D977 /* WexAreaModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA563FCE1F3DB1ED0081D977 /* WexPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WexPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA563FD21F3DB1ED0081D977 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA563FD41F3DB1ED0081D977 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA563FD51F3DB1ED0081D977 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA563FD71F3DB1ED0081D977 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA563FD81F3DB1ED0081D977 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA563FDB1F3DB1ED0081D977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA563FDD1F3DB1ED0081D977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA563FE01F3DB1ED0081D977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA563FE21F3DB1ED0081D977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA563FE91F3DB2190081D977 /* UIView+Wex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Wex.h"; sourceTree = "<group>"; };
+		CA563FEA1F3DB2190081D977 /* UIView+Wex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Wex.m"; sourceTree = "<group>"; };
+		CA563FEB1F3DB2190081D977 /* WexPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WexPickerView.h; sourceTree = "<group>"; };
+		CA563FEC1F3DB2190081D977 /* WexPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WexPickerView.m; sourceTree = "<group>"; };
+		CA563FED1F3DB2190081D977 /* WexPickerViewConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WexPickerViewConfiguration.h; sourceTree = "<group>"; };
+		CA563FEE1F3DB2190081D977 /* WexPickerViewConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WexPickerViewConfiguration.m; sourceTree = "<group>"; };
+		CA563FEF1F3DB2190081D977 /* WexPickerViewDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WexPickerViewDataItem.h; sourceTree = "<group>"; };
+		CA563FF01F3DB2190081D977 /* WexPickerViewDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WexPickerViewDataItem.m; sourceTree = "<group>"; };
+		CA563FF11F3DB2190081D977 /* WexPickerViewMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WexPickerViewMacro.h; sourceTree = "<group>"; };
+		CA563FF81F3DB2340081D977 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		CA563FF91F3DB2340081D977 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		CA563FFA1F3DB2340081D977 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		CA563FFB1F3DB2340081D977 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		CA563FFC1F3DB2340081D977 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		CA563FFD1F3DB2340081D977 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		CA563FFE1F3DB2340081D977 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		CA563FFF1F3DB2340081D977 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		CA5640011F3DB2340081D977 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		CA5640021F3DB2340081D977 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		CA5640031F3DB2340081D977 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		CA5640051F3DB2340081D977 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		CA5640061F3DB2340081D977 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		CA5640071F3DB2340081D977 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		CA5640081F3DB2340081D977 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		CA5640091F3DB2340081D977 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		CA56400A1F3DB2340081D977 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		CA56400C1F3DB2340081D977 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		CA56400D1F3DB2340081D977 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		CA56400E1F3DB2340081D977 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		CA56400F1F3DB2340081D977 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		CA56401A1F3DB2380081D977 /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
+		CA56401C1F3DB2B30081D977 /* WexAreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WexAreaModel.h; sourceTree = "<group>"; };
+		CA56401D1F3DB2B30081D977 /* WexAreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WexAreaModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA563FCB1F3DB1ED0081D977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA563FC51F3DB1ED0081D977 = {
+			isa = PBXGroup;
+			children = (
+				CA563FD01F3DB1ED0081D977 /* WexPickerView */,
+				CA563FCF1F3DB1ED0081D977 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA563FCF1F3DB1ED0081D977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA563FCE1F3DB1ED0081D977 /* WexPickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA563FD01F3DB1ED0081D977 /* WexPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				CA563FF61F3DB2340081D977 /* JSONModel */,
+				CA563FE81F3DB2190081D977 /* WexPickerView */,
+				CA563FD41F3DB1ED0081D977 /* AppDelegate.h */,
+				CA563FD51F3DB1ED0081D977 /* AppDelegate.m */,
+				CA563FD71F3DB1ED0081D977 /* ViewController.h */,
+				CA563FD81F3DB1ED0081D977 /* ViewController.m */,
+				CA56401C1F3DB2B30081D977 /* WexAreaModel.h */,
+				CA56401D1F3DB2B30081D977 /* WexAreaModel.m */,
+				CA56401A1F3DB2380081D977 /* area.json */,
+				CA563FDA1F3DB1ED0081D977 /* Main.storyboard */,
+				CA563FDD1F3DB1ED0081D977 /* Assets.xcassets */,
+				CA563FDF1F3DB1ED0081D977 /* LaunchScreen.storyboard */,
+				CA563FE21F3DB1ED0081D977 /* Info.plist */,
+				CA563FD11F3DB1ED0081D977 /* Supporting Files */,
+			);
+			path = WexPickerView;
+			sourceTree = "<group>";
+		};
+		CA563FD11F3DB1ED0081D977 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA563FD21F3DB1ED0081D977 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA563FE81F3DB2190081D977 /* WexPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				CA563FE91F3DB2190081D977 /* UIView+Wex.h */,
+				CA563FEA1F3DB2190081D977 /* UIView+Wex.m */,
+				CA563FEB1F3DB2190081D977 /* WexPickerView.h */,
+				CA563FEC1F3DB2190081D977 /* WexPickerView.m */,
+				CA563FED1F3DB2190081D977 /* WexPickerViewConfiguration.h */,
+				CA563FEE1F3DB2190081D977 /* WexPickerViewConfiguration.m */,
+				CA563FEF1F3DB2190081D977 /* WexPickerViewDataItem.h */,
+				CA563FF01F3DB2190081D977 /* WexPickerViewDataItem.m */,
+				CA563FF11F3DB2190081D977 /* WexPickerViewMacro.h */,
+			);
+			path = WexPickerView;
+			sourceTree = "<group>";
+		};
+		CA563FF61F3DB2340081D977 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA563FF71F3DB2340081D977 /* JSONModel */,
+				CA5640001F3DB2340081D977 /* JSONModelCategories */,
+				CA5640031F3DB2340081D977 /* JSONModelLib.h */,
+				CA5640041F3DB2340081D977 /* JSONModelNetworking */,
+				CA56400B1F3DB2340081D977 /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		CA563FF71F3DB2340081D977 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA563FF81F3DB2340081D977 /* JSONModel.h */,
+				CA563FF91F3DB2340081D977 /* JSONModel.m */,
+				CA563FFA1F3DB2340081D977 /* JSONModelArray.h */,
+				CA563FFB1F3DB2340081D977 /* JSONModelArray.m */,
+				CA563FFC1F3DB2340081D977 /* JSONModelClassProperty.h */,
+				CA563FFD1F3DB2340081D977 /* JSONModelClassProperty.m */,
+				CA563FFE1F3DB2340081D977 /* JSONModelError.h */,
+				CA563FFF1F3DB2340081D977 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		CA5640001F3DB2340081D977 /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				CA5640011F3DB2340081D977 /* NSArray+JSONModel.h */,
+				CA5640021F3DB2340081D977 /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		CA5640041F3DB2340081D977 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CA5640051F3DB2340081D977 /* JSONAPI.h */,
+				CA5640061F3DB2340081D977 /* JSONAPI.m */,
+				CA5640071F3DB2340081D977 /* JSONHTTPClient.h */,
+				CA5640081F3DB2340081D977 /* JSONHTTPClient.m */,
+				CA5640091F3DB2340081D977 /* JSONModel+networking.h */,
+				CA56400A1F3DB2340081D977 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		CA56400B1F3DB2340081D977 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				CA56400C1F3DB2340081D977 /* JSONKeyMapper.h */,
+				CA56400D1F3DB2340081D977 /* JSONKeyMapper.m */,
+				CA56400E1F3DB2340081D977 /* JSONValueTransformer.h */,
+				CA56400F1F3DB2340081D977 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA563FCD1F3DB1ED0081D977 /* WexPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA563FE51F3DB1ED0081D977 /* Build configuration list for PBXNativeTarget "WexPickerView" */;
+			buildPhases = (
+				CA563FCA1F3DB1ED0081D977 /* Sources */,
+				CA563FCB1F3DB1ED0081D977 /* Frameworks */,
+				CA563FCC1F3DB1ED0081D977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WexPickerView;
+			productName = WexPickerView;
+			productReference = CA563FCE1F3DB1ED0081D977 /* WexPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA563FC61F3DB1ED0081D977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wex;
+				TargetAttributes = {
+					CA563FCD1F3DB1ED0081D977 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CA563FC91F3DB1ED0081D977 /* Build configuration list for PBXProject "WexPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA563FC51F3DB1ED0081D977;
+			productRefGroup = CA563FCF1F3DB1ED0081D977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA563FCD1F3DB1ED0081D977 /* WexPickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA563FCC1F3DB1ED0081D977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA563FE11F3DB1ED0081D977 /* LaunchScreen.storyboard in Resources */,
+				CA563FDE1F3DB1ED0081D977 /* Assets.xcassets in Resources */,
+				CA56401B1F3DB2380081D977 /* area.json in Resources */,
+				CA563FDC1F3DB1ED0081D977 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA563FCA1F3DB1ED0081D977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5640191F3DB2340081D977 /* JSONValueTransformer.m in Sources */,
+				CA5640161F3DB2340081D977 /* JSONHTTPClient.m in Sources */,
+				CA563FF41F3DB2190081D977 /* WexPickerViewConfiguration.m in Sources */,
+				CA5640181F3DB2340081D977 /* JSONKeyMapper.m in Sources */,
+				CA5640101F3DB2340081D977 /* JSONModel.m in Sources */,
+				CA563FF51F3DB2190081D977 /* WexPickerViewDataItem.m in Sources */,
+				CA5640111F3DB2340081D977 /* JSONModelArray.m in Sources */,
+				CA56401E1F3DB2B30081D977 /* WexAreaModel.m in Sources */,
+				CA5640141F3DB2340081D977 /* NSArray+JSONModel.m in Sources */,
+				CA563FD91F3DB1ED0081D977 /* ViewController.m in Sources */,
+				CA5640171F3DB2340081D977 /* JSONModel+networking.m in Sources */,
+				CA5640131F3DB2340081D977 /* JSONModelError.m in Sources */,
+				CA5640151F3DB2340081D977 /* JSONAPI.m in Sources */,
+				CA563FD61F3DB1ED0081D977 /* AppDelegate.m in Sources */,
+				CA563FD31F3DB1ED0081D977 /* main.m in Sources */,
+				CA5640121F3DB2340081D977 /* JSONModelClassProperty.m in Sources */,
+				CA563FF21F3DB2190081D977 /* UIView+Wex.m in Sources */,
+				CA563FF31F3DB2190081D977 /* WexPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA563FDA1F3DB1ED0081D977 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA563FDB1F3DB1ED0081D977 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA563FDF1F3DB1ED0081D977 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA563FE01F3DB1ED0081D977 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA563FE31F3DB1ED0081D977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA563FE41F3DB1ED0081D977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA563FE61F3DB1ED0081D977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WexPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeXDemo.WexPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA563FE71F3DB1ED0081D977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WexPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeXDemo.WexPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA563FC91F3DB1ED0081D977 /* Build configuration list for PBXProject "WexPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA563FE31F3DB1ED0081D977 /* Debug */,
+				CA563FE41F3DB1ED0081D977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA563FE51F3DB1ED0081D977 /* Build configuration list for PBXNativeTarget "WexPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA563FE61F3DB1ED0081D977 /* Debug */,
+				CA563FE71F3DB1ED0081D977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA563FC61F3DB1ED0081D977 /* Project object */;
+}
